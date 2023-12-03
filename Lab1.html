@@ -1,90 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Page Title</title>
+        <title>[Lab 1] - Form</title>
         <meta charset="utf-8" />
     </head>
-    <body>
-        <h1>FORM<hr/></h1>
+    <body bgcolor="#FFE7E2">
+                        <!-- form head -->
+        <p>
+            <font color="#37265F" size="8">Workshop #HTML - FORM</font>
+            <hr color="	#F89DC0" size="10">
+        </p>
         <form action="#">
             <table>
+                <!-- first name -->
                 <tr>
-                    <td>input text</td>
-                    <td><input type="text"/></td>
+                    <td><b><font color="#37265F" size="3">First Name :</font></b></td>
+                    <td><input type="text" 
+                    style="background-color: #C9E2EF; margin-left: -100px;"/></td>
                 </tr>
+                                <!-- last name -->
                 <tr>
-                    <td>input date</td>
-                    <td><input type="date" /></td>
+                    <td><b><font color="#37265F" size="3">Last Name : </font></b></td>
+                    <td><input type="text"
+                        style="background-color: #C9E2EF; margin-left: -100px;" /></td>
                 </tr>
+                                <!-- date -->
                 <tr>
-                    <td>input datetime</td>
+                    <style>
+                        input[type="date"] {
+                          font-weight: 550 ;
+                          color: #03314a;
+                        }
+                        </style>
+                    <td><b><font color="#37265F" size="3">Date of birth :</font></b></td>
                     <td>
-                        <input type="datetime-local" />
-                    </td>
+                        <input type="date" 
+                        style="background-color: #C9E2EF; margin-left: -100px;" /></td>
                 </tr>
+                                <!-- age -->
                 <tr>
-                    <td>input radio</td>
+                    <td><b><font color="#37265F" size="3">Age :</font></b></td>
+                    <td><input type="text" 
+                    style="background-color: #C9E2EF; margin-left: -100px; "/></td>
+                </tr>
+                                <!-- gender radiobox-->
+                <tr>
+                    <td><b><font color="#37265F" size="3">Gender :</font></b></td>
                     <td>
-                        <input id="radio_a"
+                        <input id="radio_male"
                                type="radio" 
+                               style="margin-left: -100px;"
                                name="same_radio"/>
-                        <label for="radio_a">Radio A</label>
-                        <input id="radio_b"
+                        <label for="radio_male" 
+                        style="color: #03314a; font-weight: 550;">Male</label>
+                        <input id="radio_female"
                                 type="radio" 
                                 name="same_radio" />
-                        <label for="radio_b">Radio B</label>
+                        <label for="radio_female"
+                        style="color: #03314a; font-weight: 550;">Female</label>
                     </td>
                 </tr>
+                                <!-- image -->
                 <tr>
-                    <td>input checkbox</td>
-                    <td>
-                        <input type="checkbox"
-                              name="my_checkbox">Checkbox A
-                        <br>
-                        <input type="checkbox"
-                              name="my_checkbox">Checkbox B
-                    </td>
+                    <td><b><font color="#37265F" size="3">Image :</font></b></td>
+                    <td><input type="file" style="margin-left: -100px;"></td>
                 </tr>
+                                <!-- address -->
                 <tr>
-                    <td>text area</td>
-                    <td><textarea rows="4" 
-                    placeholder="กรุณาป้อนข้อมูล"></textarea>
-                    </td>
+                    <style>
+                        input[type="text"] {
+                          font-weight: 550 ;
+                        }
+                        </style>
+                    <td><b><font color="#37265F" size="3">Address :</font></b></td>
+                    <td><textarea rows="5" 
+                        style="background-color: #C9E2EF; margin-left: -100px;"></textarea></td>
                 </tr>
+                                <!-- favorite color -->
                 <tr>
+                    <td><b><font color="#37265F" size="3">Favorite color :</font></b></td>
                     <td>
-                        select
-                    </td>
-                    <td>
+                        <style>
+                            select {
+                              background-color:#C9E2EF ; 
+                              color:#03314a;
+                              font-weight: 550;
+                              margin-left: -100px;
+                            }
+                            </style>
                         <select>
                             <option 
                             value=""
                             disabled 
-                            selected>-</option>
-                            <option>A</option>
-                            <option>B</option>
+                            selected>---</option>
+                            <option>Bluegreen</option>
+                            <option>Gold</option>
+                            <option>Violet</option>
+                            <option>Red</option>
+                            <option>Light Blue</option>
+                            <option>Black</option>
+                            <option>Pastel Pink</option>
+                            <option>Grey</option>
+                            <option>Burnt Orange</option>
+                            <option>Navy Blue</option>
                         </select>
                     </td>
                 </tr>
+                                <!-- favorite music radiobox -->
                 <tr>
-                    <td>
-                        File
+                    <td><b><font color="#37265F" size="3">Favorite music genre :</font></b></td>
+                        <td>
+                            <input id="radio_pop"
+                                   type="radio" 
+                                   style="margin-left: -100px;"
+                                   name="same_genre_radio"/>
+                            <label for="radio_pop" 
+                            style="color: #03314a; font-weight: 550;">Pop</label>
+                            <input id="radio_country"
+                                    type="radio" 
+                                    name="same_genre_radio" />
+                            <label for="radio_country"
+                            style="color: #03314a; font-weight: 550;">Country</label>
+                            <input id="radio_other"
+                                    type="radio" 
+                                    name="same_genre_radio" />
+                            <label for="radio_other"
+                            style="color: #03314a; font-weight: 550;">Other</label>
+                        </td>
+                    </tr>
+                                    <!-- data checkbox -->
+                    <tr>
+                        <td><br>
+                        <input type="checkbox"
+                              name="my_checkbox">
+                              <font color="#37265F" size="3">
+                                <b>Allow data collection.</b></font></td>
+                        </td>
+                    </tr>
+                                    <!-- button -->
+                    <tr>
+                    <td><br>
+                        <input type="reset" value="Reset">
+                        <input type="submit" style="margin-left: 150px;" value="Submit">
                     </td>
-                    <td><input type="file"></td>
-                </tr>
-                <tr>
-                    <td>
-                        button
-                    </td>
-                    <td>
-                        <input type="button" 
-                                value="ข้อความ B">
-                        <input type="reset" 
-                                value="ข้อความ Reset">
-                        <input type="submit" value="ข้อความ S">
-                        <button type="submit">ข้อความ S</button>
-                        <button type="button">ข้อความ B</button>
-                    </td>
+                    </tr>
                 </tr>
             </table>
             <br><br><br>
