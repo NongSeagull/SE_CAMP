@@ -1,0 +1,44 @@
+h1{
+    font-family: SF Thonburi;
+    color: darkorange;
+    font-size:28pt;
+}
+body{
+    background-color:floralwhite;
+    font-family: SF Pro Display, TH SarabanPSK;
+    font-size: 14pt;
+}
+tr{
+    color: #37265F;
+    font-size: 13pt;
+    font-family: Sarabun;
+    font-style: bold;
+}
+
+.box{
+    font-family: Sarabun;
+    font-size: 15pt;
+    color: #B7EB21;
+    border:10px dashed #60B683;
+    margin: 50px 25px;
+    background-color: #5B7A97;
+    width: 400px;
+    height: 400px;
+}
+
+.box:hover{
+    background-color: dimgray;
+}
+a{
+    color: darksalmon;
+}
+a:link{
+    color: lightseagreen
+}
+a:visited{
+    color:lightskyblue;
+}
+a:hover{
+    color:darkturquoise;
+}
+  
