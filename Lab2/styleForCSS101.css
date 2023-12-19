@@ -1,0 +1,78 @@
+h1{
+    font-family: SF Thonburi;
+    color: darkorange;
+    font-size:28pt;
+}
+body{
+    background-color:floralwhite;
+    font-family: SF Pro Display, TH SarabanPSK;
+    font-size: 14pt;
+}
+tr{
+    color: #37265F;
+    font-size: 13pt;
+    font-family: Sarabun;
+    font-style: bold;
+}
+
+.box{
+    font-family: Sarabun;
+    font-size: 15pt;
+    color: #B7EB21;
+    border:10px dashed #60B683;
+    margin: 50px 25px;
+    background-color: #5B7A97;
+    width: 400px;
+    height: 400px;
+}
+
+.box:hover{
+    background-color: dimgray;
+}
+testL{
+    color: darksalmon;
+}
+testL:link{
+    color: lightseagreen
+}
+testL:visited{
+    color:lightskyblue;
+}
+testL:hover{
+    color:darkturquoise;
+}
+
+testL.normal {
+    font-style: normal;
+    font-weight: bold;
+}
+testL.italic {
+font-style: italic;
+font-weight: bold;
+}
+.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div > div > p {
+    font-size: larger;
+    font-weight: bold;
+}
+div > p {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+div.relative{
+    position: relative;
+    left: 30px;
+    border:3px solid #73AD21;
+}
+div.sticky{
+    position: sticky;
+    top:0;
+    background-color: #B7EB21;
+    border:2px solid #37265F;
+}
