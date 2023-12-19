@@ -29,16 +29,50 @@ tr{
 .box:hover{
     background-color: dimgray;
 }
-a{
+testL{
     color: darksalmon;
 }
-a:link{
+testL:link{
     color: lightseagreen
 }
-a:visited{
+testL:visited{
     color:lightskyblue;
 }
-a:hover{
+testL:hover{
     color:darkturquoise;
 }
-  
+
+testL.normal {
+    font-style: normal;
+    font-weight: bold;
+}
+testL.italic {
+font-style: italic;
+font-weight: bold;
+}
+.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div > div > p {
+    font-size: larger;
+    font-weight: bold;
+}
+div > p {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+div.relative{
+    position: relative;
+    left: 30px;
+    border:3px solid #73AD21;
+}
+div.sticky{
+    position: sticky;
+    top:0;
+    background-color: #B7EB21;
+    border:2px solid #37265F;
+}
