@@ -1,14 +1,33 @@
+h1{
+    font-family: Sarabun;
+    font-style: bold;
+    font-size: 24pt;
+    color: #854b15;
+    text-align: center;
+
+}
+boxText{
+    font-family: Verdana;
+    font-size:18pt;
+    color: #4F2F1C;
+    margin:auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .box{
     width: 400px;
     height: 400px;
-    color: rgb(255, 255, 255);
-    background-color:rgb(88, 90, 88);
-    text-align: center;
-    border: 5px dashed rgb(0,255,0);
-    padding-top: 10px;
-    margin: 50px 25px;
+    position: relative;
+    margin: auto;
+    background-color:#FAE8B8;
+    border: 5px groove #683E1A;
 }
 
 .box:hover{
-    background-color:rgb(118, 11, 82);
+    background-color:#E3B86F;
+    border: 5px groove #FAE8B8;
+    box-shadow: 10pt 10pt 5pt rgb(88, 60, 44,0.8);
 }
