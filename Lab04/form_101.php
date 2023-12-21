@@ -4,9 +4,18 @@
     </head>
     <body>
         <?php
-        //http://localhost/SE_CAMP/Lab04/index.php
-        <form method="post">
-
+        //get
+        //http://localhost/SE_CAMP/Lab04/form_101.php
+        //post
+        ?>
+        <form action=" " method="post">
+            <input type="text" name="myVal"/>
+            <button type="submit">save</button>
         </form>
+        <h1><?php
+        print_r($_REQUEST); 
+        if(isset($_POST['myVal'])){
+            echo''.$_POST['myVal'];
+        }?></h1>
     </body>
 </html>
